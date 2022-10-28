@@ -497,5 +497,5 @@ BreezeCursors class >> setResizeVerticalCursor [
 	cursor setMaskForm: mask.
 	cursor bits asArray.
 	cursor maskForm bits asArray.
-	Cursor classPool at: #ResizeLeftCursor put: cursor
+	Cursor classPool at: #ResizeTopCursor put: cursor
 ]
